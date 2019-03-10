@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/BlackSheep001/SpringCloud_config_sandbox_repo.git
+          username: lucas.shao@foxmail.com
+          password: shl63515458
+          basedir: /Users/lucas/Sandbox/tmp_for_spring_cloud_config
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8081
