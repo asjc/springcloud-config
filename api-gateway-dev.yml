@@ -1,0 +1,11 @@
+zuul:
+  routes:
+    # 路由自定义路径名, 完整写法
+    #    customRouteRule1:
+    #      path: /myProduct/**
+    #      serviceId: product
+    # 路由自定义路径名, 简洁写法
+    product: /myProduct/**
+  # 排除某些路由
+  ignored-patterns:
+    - /**/product/listForOrder
