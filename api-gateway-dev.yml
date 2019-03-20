@@ -11,3 +11,7 @@ zuul:
   # 排除某些路由
   ignored-patterns:
     - /**/product/listForOrder
+spring:
+  redis:
+    host: localhost
+    port: 6379
