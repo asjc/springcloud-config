@@ -3,14 +3,14 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: 
-    url: jdbc:mysql://127.0.0.1:3306/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
+    url: jdbc:mysql://192.168.31.57:3306/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
   jpa:
     show-sql: true
   redis:
-    host: localhost
+    host: 192.168.31.57
     port: 6379
   rabbitmq:
-    host: localhost
+    host: 192.168.31.57
     password: guest
     port: 5672
     username: guest

@@ -13,5 +13,5 @@ zuul:
     - /**/product/listForOrder
 spring:
   redis:
-    host: localhost
+    host: 192.168.31.57
     port: 6379
