@@ -11,10 +11,6 @@ zuul:
   # 排除某些路由
   ignored-patterns:
     - /**/product/listForOrder
-spring:
-  redis:
-    host: 192.168.31.57
-    port: 6379
 feign:
   client:
     config:
